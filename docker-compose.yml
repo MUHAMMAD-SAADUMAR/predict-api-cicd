@@ -1,0 +1,6 @@
+services:
+  predict-api:
+    image: msaadumar/predict-api:v1
+    container_name: predict-api
+    ports:
+      - "5000:5000"
